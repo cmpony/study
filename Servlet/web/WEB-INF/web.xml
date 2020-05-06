@@ -1,0 +1,37 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <display-name>Welcome to Tomcat</display-name>
+
+    <description>
+        Welcome to Tomcat
+    </description>
+
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>ServletHello</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/11</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>genenricHello</servlet-name>
+        <servlet-class>GenenricHello</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>genenricHello</servlet-name>
+        <url-pattern>/22</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>httpHello</servlet-name>
+        <servlet-class>HttpHello</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>httpHello</servlet-name>
+        <url-pattern>/33</url-pattern>
+    </servlet-mapping>
+</web-app>
