@@ -1,4 +1,0 @@
-FileChannel: 文件读写数据通道
-SocketChannel: TCP读写网络数据通道
-ServerSocketChannel: 服务端网络数据读写通道，可以监听TCP连接
-DatagramChannel: UDP读取网络数据通道
