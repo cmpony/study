@@ -25,14 +25,11 @@
     </build>
     <modules>
         <module>NIO</module>
-        <module>Servlet</module>
-        <module>Servlet</module>
         <module>Thead</module>
         <module>quartz</module>
         <module>Pattern</module>
         <module>sort</module>
         <module>leetcode</module>
-        <module>netty</module>
         <module>jvm</module>
         <module>lambda</module>
     </modules>
